@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+	<extension point="org.eclipse.ui.actionSets">
+		<actionSet label="Open Cygwin" visible="true" id="OpenCygwin.actionSet">
+			<action label="Open Cygwin" icon="icons/cygwin.gif" class="com.johnny.yin.cygwinplugin.actions.OpenCygwinAction" tooltip="Open Cygwin(F10)" toolbarPath="Normal" definitionId="com.johnny.yin.cygwinplugin.actions.OpenCygwinAction" id="com.johnny.yin.cygwinplugin.actions.OpenCygwinAction">
+			</action>
+		</actionSet>
+
+	</extension>
+
+	<extension point="org.eclipse.ui.commands">
+		<activeKeyConfiguration value="org.eclipse.ui.defaultAcceleratorConfiguration" />
+		<command name="Open Cygwin" description="Open Cygwin(F10)" id="com.johnny.yin.cygwinplugin.actions.OpenCygwinAction" />
+	</extension>
+
+	<extension point="org.eclipse.ui.bindings">
+		<key commandId="com.johnny.yin.cygwinplugin.actions.OpenCygwinAction" contextId="org.eclipse.ui.contexts.window" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="F10">
+		</key>
+	</extension>
+
+</plugin>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OpenCygwin
+Bundle-SymbolicName: OpenCygwin;singleton:=true
+Bundle-Version: 1.0.0.release
+Bundle-Activator: com.johnny.yin.cygwinplugin.CygwinPlugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.osgi,
+ org.eclipse.swt
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.internal.resources,
+ org.eclipse.core.resources
+Bundle-Vendor: JohnnyYin

@@ -1,0 +1,18 @@
+# Android generated
+bin/
+gen/
+
+# Eclipse
+.settings/
+.classpath
+
+# Android Studio
+.idea/
+.gradle/
+build/
+gradle/
+
+# Cocos2d-x
+obj/
+Debug.win32/
+*.sdf
