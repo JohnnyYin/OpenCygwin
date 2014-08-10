@@ -103,9 +103,8 @@ public class OpenCygwinAction implements IWorkbenchWindowActionDelegate {
 				}
 			}
 		} else {
-			// 处理编辑框中的选择
-			Resource temp = ResourceUtils.getResource(window.getActivePage()
-					.getActiveEditor());
+			// handle Editor selection
+			Resource temp = ResourceUtils.getResource(window.getActivePage().getActiveEditor());
 			if (temp != null) {
 				resource = new Resource[1];
 				resource[0] = temp;
