@@ -1,2 +1,2 @@
 # OpenCygwin
-OpenCygwin
+OpenCygwin是Windows上的一个Eclipse插件，支持快捷键从当前目录启动Cygwin，默认快捷键是F10。
